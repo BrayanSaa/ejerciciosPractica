@@ -14,8 +14,8 @@ public class Main {
         }
 
         // Crear y lanzar dos hilos para buscar las palabras
-        SearchThread thread1 = new SearchThread(directory, "cosa");
-        SearchThread thread2 = new SearchThread(directory, "otraPalabra");
+        HiloBuscar thread1 = new HiloBuscar(directory, "cosa");
+        HiloBuscar thread2 = new HiloBuscar(directory, "otraPalabra");
 
         thread1.start();
         thread2.start();
