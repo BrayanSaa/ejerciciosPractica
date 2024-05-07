@@ -1,11 +1,10 @@
 package org.ejercicio1;
-
 import java.io.File;
 
 public class Main {
 
     public static void main(String[] args) {
-        String directoryPath = "D:\\Proyectos\\programacion\\ejerciciosPractica\\src\\main\\java\\org\\ejercicio1\\archivos"; // Reemplaza con la ruta de tu directorio
+        String directoryPath = "ejerciciosPractica/src/main/java/org/ejercicio1/archivos"; // Reemplaza con la ruta de tu directorio
         String searchWord = "cosa"; // La palabra que quieres buscar
 
         File directory = new File(directoryPath);
